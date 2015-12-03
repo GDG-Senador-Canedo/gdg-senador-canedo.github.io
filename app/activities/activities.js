@@ -7,59 +7,59 @@ angular.module('gdgXBoomerang')
 
     var activityList = {
         techTalks: {
-            name: 'Tech Talks',
-            description: 'These talks are a grassroots-style series of presentation given by various ' +
-                'technical experts spanning a wide spectrum of topics in technology and related areas.',
+            name: 'Palestras',
+            description: 'As palestras são apresentadas por especialistas técnicos que abramgem um amplo ' +
+            'conhecimento em tecnologias e áreas afins.',
             color: 'purple',
             icon: '/app/images/icons/ic_mic_48px.svg'
         },
         roundTables: {
-            name: 'Round Tables',
-            description: 'Free-form, community-focused events where all attendees can raise topics for discussion.',
+            name: 'Mesa redonda',
+            description: 'Evento informal onde todos da comunidade podem participar e dar suas opniões.',
             color: 'darkBlue',
             icon: '/app/images/icons/ic_local_pizza_48px.svg'
         },
         codeLabs: {
             name: 'Code Labs',
-            description: 'Specially prepared to provide step-by-step instructions, these events focus on ' +
-                'introducing new technology and maximizing hands-on learning.',
+            description: 'Este tipo de evento é preparado para fornecer instruções passo-a-passo de uma determinada ' +
+            'tecnologia, é utilizado em introduções em novas tecnologias e maximizar o aprendizado prático',
             color: 'green',
             icon: '/app/images/icons/ic_code_48px.svg'
         },
         devFests: {
             name: 'Dev Fests',
-            description: 'GDG Dev Fests are large scale, community-run events that offer speaker sessions ' +
-                'across single or multiple product areas, hackathons, code labs, and more...',
+            description: 'GDG Dev Fests são grades eventos, onde reunimos uma grande quantidade de pessoas ' +
+            'interessadas em tecnologias e são realizados palestras, codelabs, hackatons e muito mais...',
             color: 'deepBlue',
             icon: '/app/images/icons/ic_event_48px.svg'
         },
         appClinics: {
             name: 'App Clinics',
-            description: 'These community events bring together developers, designers, testers, and ' +
-                'usability experts to evaluate specific apps with a focus on constructive criticism, ' +
-                'problem solving, and collaboration.',
+            description: 'Estes eventos voltado para comunidade que procura reunir desenvolvedores, desings, ' +
+            'testers e especialistas em usabilidade para avaliar aplicativos específicos com foco na ' +
+            'crítica construtiva, resolução de problemas e colaboração',
             color: 'yellow',
             icon: '/app/images/icons/ic_local_hospital_48px.svg'
         },
         panels: {
             name: 'Panels',
-            description: 'These events bring together multiple experts on a topic. The formats can vary from ' +
-                'moderator-led Q&A, debate, focused or free-form discussion, to audience Q&A.',
+            description: 'Este evento reune vários especialistas sobre um determinado tópico, e são realizados ' +
+            'palestras, debates, mesas redondas tudo com interação da plateia.',
             color: 'lightPurple',
             icon: '/app/images/icons/ic_people_48px.svg'
         },
         hackathons: {
             name: 'Hackathons',
-            description: 'Events where cross-disciplined teams collaborate intensively on specific projects ' +
-                'or challenges. They often involve timed demonstrations and competition for prizes.',
+            description: 'Este evento envolve uma competição de código, onde o participante colabora intensivamente ' +
+            'em um projeto especifico ou desafios.Muitas veses os participantes possuiem tempo e ganhadores ' +
+            'recebem premios',
             color: 'red',
             icon: '/app/images/icons/ic_timer_48px.svg'
         },
         designSprints: {
             name: 'Design Sprints',
-            description: 'Intense, focused, collaborative brainstorming events where product design is key. ' +
-                'Iterate through the various phases of understanding, sketching, deciding, prototyping, ' +
-                'and testing.',
+            description: 'Evento com foco em Brainstorming colaborativos e intensos, onde o desing do produto é ' +
+            'fundamental, iterar através das diversas fases: entendimento, esboço, decisão, prototipo e testes',
             color: 'pink',
             icon: '/app/images/icons/ic_directions_run_48px.svg'
         }
